@@ -41,12 +41,12 @@ class ReportResponse extends ReportParameterList {
 //
 //////////////////////////////////////////////////////////////////////
 //
-  function ReportResponse()
+  function __construct()
   {
 //
 //	Initialize the parameter list.
 //
-    ReportParameterList::ReportParameterList();
+    ReportParameterList::__construct();
   }
 
 

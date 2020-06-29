@@ -39,7 +39,7 @@ class ReportParameterList {
 //
 //////////////////////////////////////////////////////////////////////
 //
-  function ReportParameterList()
+  function __construct()
   {
     $this->params = array();			// Allocate an array
   }

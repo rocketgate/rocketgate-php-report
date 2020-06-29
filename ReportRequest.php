@@ -40,12 +40,12 @@ class ReportRequest extends ReportParameterList {
 //
 //////////////////////////////////////////////////////////////////////
 //
-  function ReportRequest()
+  function __construct()
   {
 //
 //	Initialize the request list.
 //
-    ReportParameterList::ReportParameterList();
+    ReportParameterList::__construct();
     $this->Set(ReportRequest::VERSION_INDICATOR(), "PR2.0");
   }
 

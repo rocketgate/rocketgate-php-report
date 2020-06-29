@@ -49,7 +49,7 @@ class ReportService {
 //
 //////////////////////////////////////////////////////////////////////
 //
-  function ReportService()
+  function __construct()
   {
 //
 //	Set the standard production destinations for the
